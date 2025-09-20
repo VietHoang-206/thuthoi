@@ -21,4 +21,5 @@ jobs:
         run: |
           gh api \
             --method DELETE \
-            repos/${{ github.repository }}/git/refs/heads/auto/update-date-* 
+            repos/${{ github.repository }}/git/refs/heads/auto/update-date
+            
